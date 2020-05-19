@@ -1,0 +1,116 @@
+/* reseting the css */
+html, body {
+    height: 100%; 
+  }
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+/* Style Navbar */
+.main_nav {
+    background-color: black;
+    height: 60px; 
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_box {
+    width: 100%;
+}
+
+/* Style Sidebar */
+.sidebar {
+height: 100%;
+width: 300px; 
+}
+
+.link1 {
+    padding: 10px 30px;
+}
+
+.link2 {
+    padding: 0px 50px;
+}
+
+#ad_sidebar {
+    padding: 45px 0 0 50px;
+}
+
+/* Style Product */
+
+.info_txt {
+    padding: 40px 0 10px 3px;
+    font-size: 0.9em;
+}
+
+.product_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 25%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.description {
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.rating {
+    padding-top: 10px;
+    color: gold;
+}
+
+.rating > span {
+    color: blue;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+.color {
+    padding-top: 10px;
+    color: blue;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.price {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.price sup {
+    font-size: 0.6em;
+}
+
+.shipping {
+    padding-top: 20px;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 1250px) {
+    .product {
+        width: 33%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+    .product {
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+  
