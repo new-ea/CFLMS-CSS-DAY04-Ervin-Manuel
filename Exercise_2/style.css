@@ -35,3 +35,40 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 580px)
+{
+    .wrapper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper div img
+    {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 900px)
+{
+    .wrapper
+    {
+        display: flex; 
+        flex-direction: row;     
+    }
+
+    .wrapper div img
+    {
+        margin: 20px;
+    }
+
+    /*.wrapper div img
+    {
+        width: 30%;
+        height: 450px;
+    }*/
+}
+
+
